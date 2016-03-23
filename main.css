@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+*{text-decoration: none;font-family:"微软雅黑";	font-size: 12px;}
+a{color: #656565;}
+input
+{border: none;}
+.comWidth
+{
+	width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topBar
+{
+	height: 31px;
+	background-color:#f7f7f7;
+	line-height: 31px;
+	font-size: 12px;
+}
+.topBar a:hover
+{color: red;
+}
+.leftarea
+{
+	float: left; 
+	
+}
+.rightarea
+{
+	float: right;
+}
+.collection
+{
+	background:url(img/images/1_03.png) left center no-repeat;
+	padding-left: 19px;
+	
+}
+.logoBar
+{
+	height: 85px;
+	background-color: #1d7ad9;
+
+}
+.search_box
+{
+	float: left;
+	width: 430px;
+	padding-top: 23px;
+	padding-left: 150px;
+}
+.search_text
+{
+	width: 350px;
+	height: 35px;
+	float:left;
+	padding: 0 5px;
+}
+
+.search_btn
+{
+	width: 70px;
+	height: 35px;
+	font-size: 14px;
+	background-color: #ff8c00;
+	color:#fff;
+	float: right;
+}
+.logo
+{
+	float: left;
+}
+.shopCar
+{
+	float:right;
+	width: 145px;
+	height: 35px;
+	margin-top: 23px;
+	
+}
+.navBox
+{
+	height: 35px;
+	background-color: #1369c0;
+}
+.shopclass{float: left;width: 190px;position: relative;}
+span
+{
+	font-size: 14px;
+	color: #fff;
+	line-height: 35px;
+	text-align: center;
+	display: block;
+}
+.nav
+{	float: left;
+	line-height: 35px;
+	margin: 0;
+	padding: 0;
+}
+.nav li
+{	float: left;
+	list-style-type: none;
+}
+
+.nav a
+{
+	height: 35px;
+	display: inline-block;
+	padding: 0 35px;
+	color: #fff;
+	font-size: 14px;
+}	
+.active
+{
+	background-color: #4593fd;
+}
+.shopclass_item .b
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+.shopclass_item
+{
+	margin: 0;
+	padding: 14px 10px;
+	border-bottom: 1px solid #3487f2;
+	border-top: 1px solid #3487f2;
+}
+.shopclass_show
+{
+	background-color: #4593fd;
+	position: absolute;
+	left: 0;
+	top: 35px;
+	width: 100%;
+}
+.shopclass_item a
+{
+	color: #fff;
+}
+.shopclass_item dt
+{
+	height: 20px;
+	background: url(img/images/sorrow_03.png) right center no-repeat;
+}
+.shopclass_item dd
+{
+	margin-left: 0;
+}
+.radius
+{
+	display:inline-block;
+	background-color:#1369c0;
+	border-radius: 5px;
+	margin-left: 10px;
+	text-decoration: underline;
+	
+}
